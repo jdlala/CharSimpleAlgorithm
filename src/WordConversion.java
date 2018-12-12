@@ -1,4 +1,4 @@
-public class LetterConversion {
+public class WordConversion {
 
     //大写转小写
     public static String toLowerCase(String str) {
