@@ -28,4 +28,16 @@ public class Utils {
         array += "]";
         return array;
     }
+    public String strArray(String [] a) {
+        String array = "[";
+        for (int i = 0;i < a.length;i++) {
+            if (i != a.length - 1) {
+                array += a[i] + ",";
+            } else {
+                array += a[i];
+            }
+        }
+        array += "]";
+        return array;
+    }
 }
